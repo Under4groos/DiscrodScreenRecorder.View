@@ -18,12 +18,12 @@ function main() {
 
     let git_ = new github()
 
-    git_.Get("https://api.github.com/repos/Under4groos/CustView.View/releases", (data) => {
-        SetElement_onclick("but_view_demo", data[0]["assets"][0]["browser_download_url"])
-    });
-    SetElement_onclick(str_name, str_url)
-    document.getElementById('image')
-        .style.display = "block";
+    // git_.Get("https://api.github.com/repos/Under4groos/CustView.View/releases", (data) => {
+    //     SetElement_onclick("but_view_demo", data[0]["assets"][0]["browser_download_url"])
+    // });
+
+    // document.getElementById('image')
+    //     .style.display = "block";
 
 
 
